@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Coffee Shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/bhp4cmh.css">
+</head>
+
+<body>
+  
+  <audio autoplay="true" id="myAudio" src="./assets/audio/Fabio_Poian_New_Orleans_instrumental_2_23.mp3" type="audio/mpeg"> </audio>
+  
+  <div class="map">
+
+    <!-- Geoffrey Bernstein and Samantha Wallenstein -->
+  <div class="map-item map-item1">
+    <a class="marker marker1" href="#marker1"></a>
+    <aside id="marker1" class="map-popup">
+      <h3 class="popup-title">Geoffrey Bernstein and Samantha Wallenstein</h3>
+       <p>Oh no! We’ve run out of propane in the middle of lunch service, and 
+        we’re unable to refill the tank. Can you help us design a device that converts energy to keep our food warm?</p>
+        <div align="center">
+        <audio controls>
+          <source src="assets/audio/food_truck_problem.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Cretia Cakes  -->
+  <div class="map-item map-item2">
+    <a class="marker marker2" href="#marker2"></a>
+    <aside id="marker2" class="map-popup">
+      <h3 class="popup-title">LaCretia Allen</h3>
+      <p>I’m thinking of offering a special dessert of the month. I’d like to showcase it in one of my display cases so the customers can notice 
+        the detailed frosting designs. However, the lights in the display case no longer work. Can you help me design a device that converts 
+        energy to light the display case? </p>
+        <div align="center">
+          <audio controls>
+            <source src="assets/audio/problem_cakes.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+        </div>
+    </aside>
+  </div>
+ 
+  <!-- Loping Elk Guitars  -->
+  <div class="map-item map-item3">
+    <a class="marker marker3" href="#marker3"></a>
+    <aside id="marker3" class="map-popup">
+      <h3 class="popup-title">Brian Stratton</h3>
+      <p>I’m almost all set up for the outdoor festival, but I don’t have enough extension cords to power my fan. 
+        Can you help me design a device that converts energy to help keep my guitars cool?</p>
+        <div align="center">
+          <audio controls>
+            <source src="assets/audio/problem_guitars.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+        </div>
+  </div>
+  
+<!-- LeConte Realty  -->
+  <div class="map-item map-item5">
+    <a class="marker marker5" href="#marker5"></a>
+    <aside id="marker5" class="map-popup">
+      <h3 class="popup-title">Trey Brewington</h3>
+      <p>Since I’m new to the area, I would like to put up a sign to attract new clients. 
+        I want the sign to do something special so that people notice it, but I cannot guarantee that electricity will be available. 
+        Can you help me design a sign to attract new clients that converts energy?</p>
+        <div align="center">
+          <audio controls>
+            <source src="assets/audio/trey_problem.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+      </div>
+    </aside>
+  </div>
+  
+  <div class="container-lg"> 
+
+    <div id ="Transcript-BTN">
+      <a href="https://instructional-resources.s3.amazonaws.com/PLTW_Launch/10059_EnergyExploration/English_External_Files/EnergyExploration_MainStreet/4_9_MainStreet_Transcript.pdf" target="_blank">
+        <img  src="assets/images/Transcript-BTN.png" alt="">
+      </a>
+    </div>
+
+    <div  id ="sound_on">
+      <img  src="assets/images/button_soundON.png" onclick="playAudio()" alt="">
+    </div>
+
+    <div id ="sound_off">
+      <img  src="assets/images/button_soundOFF.png" onclick="pauseAudio()" alt="">
+    </div> 
+
+  
+      <!-- <div id ="anim_on">
+        <img  src="assets/images/button_animON.png" alt="">
+      </div>
+
+
+    <div id ="anim_off">
+      <img  src="assets/images/button_animOFF.png" alt="">
+    </div>  -->
+
+    <div id ="back">
+      <a href="https://instructional-resources.s3.amazonaws.com/PLTW_Launch/10059_EnergyExploration/English_External_Files/EnergyExploration_MainStreet/4_9_MainStreet/main_index.html">
+        <img  src="assets/images/Sbutton_BACK.png" alt="">
+      </a>
+    </div>
+   
+
+    
+
+    
+    <!-- <div id ="bakeryon">
+      <img  src="assets/images/bakery_oven.png" alt="">
+    </div> -->
+
+  
+  </div>
+      <img src="assets/images/coffee_BG.png" alt="">
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
+
+ 

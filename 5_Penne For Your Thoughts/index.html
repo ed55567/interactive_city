@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Penne For Your Thoughts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/bhp4cmh.css">
+</head>
+
+<body>
+  
+  <audio id="myAudio" src="./assets/audio/353124__benjaminnelan__frying-pan-sizzle.wav" type="audio/mpeg"> </audio>
+  <div class="map">
+  
+  <div class="map-item map-item1">
+    <a class="marker marker1" href="#marker1"></a>
+    <aside id="marker1" class="map-popup">
+      <img id="cakesimg"  src="./assets/images/GeoffreyBernsteinSamanthaWallenstein.png">
+      <h3 id="name" class="popup-title">Geoffrey Bernstein and Samantha Wallenstein</h3>
+       <p id="title">Penne For Your Thoughts</p>
+       <div align="center">
+       <audio controls>
+        <source src="assets/audio/Introduction-consolidated.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+    </div>
+    </aside>
+  </div>
+  
+  <div class="map-item map-item2">
+    <a class="marker marker2" href="#marker2"></a>
+    <aside id="marker2" class="map-popup">
+      <div class="buttons">
+        <img id="buttonOn2" class="hide" src="assets/images/buttonON.png"> 
+        <img id="buttonOff2" src="assets/images/buttonOFF.png">
+      </div>
+        <br>
+        <br>
+        <br>
+        <br>
+      <p>Cooking equipment, such as a stove and oven, is essential to a food truck. Since the food truck is mobile, we need an easy and portable way to power the cooking equipment. 
+        That’s why we use propane! Propane gas comes in a tank that connects to our cooking equipment. 
+        You may have also seen a propane tank on a camping stove or gas grill.</p>
+        <div align="center">
+          <audio controls>
+            <source src="assets/audio/Cooking_Equipment.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+       </div>
+    </aside>
+  </div>
+
+  <div class="map-item map-item3">
+    <a class="marker marker3" href="#marker3"data-action="zoom"></a>
+    <aside id="marker3" class="map-popup">
+      <div class="buttons">
+        <img id="buttonOn1" class="hide" src="assets/images/buttonON.png"> 
+        <img id="buttonOff1" src="assets/images/buttonOFF.png">
+      </div>
+        <br>
+        <br>
+        <br>
+        <br>
+      <p>Without light, it would be hard to see inside the food truck. We use a generator to power our lights. 
+        Generators supply electricity when other power sources are not available.</p>
+        <div align="center">
+        <audio controls>
+          <source src="assets/audio/Lights.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio>
+      </div> 
+  </div>
+  
+
+  <div class="map-item map-item5">
+    <a class="marker marker5" href="#marker5"></a>
+
+    <aside id="marker5" class="map-popup">
+      <p>At the food truck, we rely on electronic devices, such as a TV and a credit card machine. Why do we need a TV on a food truck? 
+        We use the TV screen to display the menu so customers know what food we offer. We use the credit card machine to process payments. 
+        This machine allows us to sell food to customers who do not carry cash.
+        <br>
+        <br> 
+        Both the TV and the credit card machine are powered by electricity. This electricity comes from a generator.</p>
+        <div align="center">
+        <audio controls>
+          <source src="assets/audio/Electronic_Devices.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio>
+      </div>
+    </aside>
+  </div>
+  
+  <div class="container-lg"> 
+
+    <div id="wrap">
+      <div class="steam" id="steam-one"></div>
+      <div class="steam" id="steam-two"></div>
+      <div class="steam" id="steam-three"></div>
+      <div class="steam" id="steam-four"></div>
+    </div>
+    
+
+
+    <div id ="Transcript-BTN">
+      <a href="https://instructional-resources.s3.amazonaws.com/PLTW_Launch/10059_EnergyExploration/English_External_Files/EnergyExploration_MainStreet/4_9_MainStreet_Transcript.pdf" target="_blank">
+        <img  src="assets/images/Transcript-BTN.png" alt="">
+      </a>
+    </div>
+
+    <!-- <div  id ="sound_on">
+      <img  src="assets/images/button_soundON.png"  onclick="playAudio()" alt="">
+    </div>
+
+    <div id ="sound_off">
+      <img  src="assets/images/button_soundOFF.png" onclick="pauseAudio()" alt="">
+    </div>  -->
+  
+      <div id ="anim_on">
+        <img  src="assets/images/button_animON.png" alt="">
+      </div>
+
+
+    <div id ="anim_off">
+      <img  src="assets/images/button_animOFF.png" alt="">
+    </div> 
+
+    <div id ="back">
+      <a href="https://instructional-resources.s3.amazonaws.com/PLTW_Launch/10059_EnergyExploration/English_External_Files/EnergyExploration_MainStreet/4_9_MainStreet/main_index.html">
+        <img  src="assets/images/Sbutton_BACK.png" alt="">
+      </a>
+    </div>
+   
+
+    
+
+    
+    <div id ="lightsOn">
+      <img  src="assets/images/foodtruck_lights.png" alt="">
+    </div>
+
+  
+  </div>
+      <img src="assets/images/foodtruck_BG.png" alt="">
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
+
+ 

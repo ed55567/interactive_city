@@ -1,0 +1,326 @@
+*{
+  font-family: Sofia-Pro, sans-serif !important;
+ }
+
+
+
+body {
+  font-size: 100%;
+  line-height: 1.5;
+  background-image: url(../assets/images/main_OVERLAY.png) !important;
+  height: 100vh;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+
+#buttonOff1{
+  position: absolute;
+  width: 14%;
+  height: auto;
+  z-index: 2;
+  left: 42%;
+  top: 5.0%;
+  cursor: pointer;
+}
+
+#buttonOn1{
+  position: absolute;
+  width: 14%;
+  height: auto;
+  z-index: 1;
+  left: 42%;
+  cursor: pointer;
+  top: 5.0%;
+} 
+
+#Transcript-BTN{
+  position: absolute;
+  width: 9.5%;
+  height: 8.7%;
+  z-index: 1;
+  top: 5%;
+  left: 87.5%;
+  transform: translate(-10%, -10%);
+}
+
+#sound_on{
+  position: absolute;
+  width: 3%;
+  height: 3%;
+  z-index: 3;
+  top: 4%;
+  left: 96.5%;
+  transform: translate(-10%, -10%);
+}
+
+#sound_off{
+  position: absolute;
+  width: 3%;
+  height: 3%;
+  z-index: 2;
+  top: 4%;
+  left: 96.5%;
+  transform: translate(-10%, -10%);
+}
+
+#anim_off{
+  position: absolute;
+  width: 3%;
+  height: 3%;
+  z-index: 2;
+  top: 4%;
+  left: 96.5%;
+  transform: translate(-10%, -10%);
+}
+
+#anim_on{
+  position: absolute;
+  width: 3%;
+  height: 3%;
+  z-index: 2;
+  top: 4%;
+  left: 93.3%;
+  transform: translate(-10%, -10%);
+}
+
+#back{
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  z-index: 1;
+  top: 74%;
+  left: 80.0%;
+  transform: translate(-10%, -10%);
+}
+
+ #back:hover{
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  z-index: 1;
+  scale: 1.07;
+  top: 74%;
+  left: 80.0%;
+  transform: translate(-10%, -10%);
+} 
+
+
+#tvon{
+  position: absolute;
+  width: 26.5%;
+  height: 26.5%;
+  z-index: 1;
+  top: 11.7%;
+  left: 10.2%;
+  transform: translate(-10%, -10%);
+}
+
+#lighton{
+  position: absolute;
+  z-index: 1;
+  top: 8.7%;
+  left: 36.7%;
+  width: 31%;
+  height: 31%;
+  display: none;
+}
+
+/* img {
+  max-width: 100%;
+  height: auto;
+} */
+
+video{
+  max-width: 85%;
+  height: auto;
+}
+
+audio{
+  max-width: 70%;
+}
+
+.map {
+  position: relative;
+  max-height: auto;
+  max-width: 90%;
+  margin: auto;
+  background-color: #ccc;
+  
+}
+.map img {
+  display: block;
+  width: 100%;
+}
+
+#title{
+  text-align: center;
+}
+
+#name{
+  text-align: center;
+}
+
+.map-popup {
+  border-radius: 50px;
+  text-align: left;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  z-index: 99;
+  width: 60%;
+  padding: 1rem;
+  background-color:rgb(255, 255, 255, 0.95);
+  transition: all 200ms ease-in;
+  transform: translate(-50%,-50%);
+  box-shadow: 0 0 24px rgba(0,0,0,0.22);
+  visibility: hidden;
+}
+
+.map-popup > *:first-child { margin-top: 0; }
+.map-popup > *:last-child { margin-bottom: 0; }
+
+.map-popup.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+.marker {
+  position: absolute;
+  z-index: 3;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  color: rgb(0, 0, 0);
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  transition: all 300ms;
+  animation: puls-effect 1s ease infinite;
+}
+
+
+.marker:after {
+  position: absolute;
+  z-index: 3;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  color: rgb(0, 0, 0);
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: rgb(145, 145, 145);
+  transition: all 300ms;
+  
+}
+
+.marker1 {
+  top: 30%;
+  left: 30%;
+}
+.marker2 {
+  top: 40%;
+  left: 64%;
+}
+
+.marker3 {
+  top: 20%;
+  left: 49%;
+}
+
+.marker5 {
+  top: 35%;
+  left: 74%;
+}
+
+@media only screen and (min-width:78em) {
+  .map-item {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    }
+    .map-item .marker {
+      top: auto;
+      left: auto;
+    }
+
+ 
+  
+  .map-item1 {
+    top: 30%;
+    left: 33%;
+  }
+  .map-item2 {
+    top: 33%;
+    left: 66%;
+  }
+
+  .map-item3 {
+    top: 20%;
+    left: 53%;
+  }
+  .map-item4 {
+    top: 54%;
+    left: 52%;
+  }
+
+  .map-item5 {
+    top: 35%;
+    left: 78%;
+  }
+
+  
+  .map-popup {
+    position: absolute;
+    left: 48px;
+    width: 280px;
+    transform: translateY(-50%);
+  }
+  .map-popup:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -16px;
+    margin-top: -16px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 16px 16px 16px 0;
+    border-color: transparent #fff transparent transparent;
+  }
+  
+  .map-popup.edge {
+    left: auto;
+    right: calc(100% + 24px);
+  }
+  .map-popup.edge:before {
+    left: auto;
+    right: -16px;
+    border-width: 16px 0 16px 16px;
+    border-color: transparent transparent transparent #fff;
+  }
+
+  
+}
+
+
+@keyframes puls-effect {
+  0% {
+    transform: scale(0.5);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+

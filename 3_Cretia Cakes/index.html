@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Cretia Cakes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/bhp4cmh.css">
+</head>
+
+<body>
+  
+  <audio id="myAudio" src="./assets/audio/oven_audio.mp3" type="audio/mpeg"> </audio>
+ 
+  <div class="map">
+  
+  <div class="map-item map-item1">
+    <a class="marker marker1" href="#marker1"></a>
+    <aside id="marker1" class="map-popup">
+        <img id="cakesphoto" src="./assets/images/cretia cakes.JPG">
+       <h3 id="name" class="popup-title">LaCretia Allen</h3>
+       <p id="title">Cretia Cakes</p>
+       <div align="center">
+       <audio controls>
+        <source src="assets/audio/cakes_intro_audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+    </div>
+    </aside>
+  </div>
+  
+  <div class="map-item map-item2">
+    <a class="marker marker2" href="#marker2"></a>
+    <aside id="marker2" class="map-popup">
+      <p>You’ve probably never heard of a conduction burner, but chances are you have one at home. Most traditional stove tops have several conduction burners. 
+        A conduction burner transfers heat to a pan. Then the pan transfers heat to the food. 
+        As a pastry chef, I use a conduction burner to melt butter or make caramel.</p>
+        <div align="center">
+          <audio controls>
+            <source src="assets/audio/Conduction burner.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+      </div> 
+    </aside>
+  </div>
+
+  <div class="map-item map-item3">
+    <a class="marker marker3" href="#marker3"></a>
+    <aside id="marker3" class="map-popup">
+      <div class="buttons">
+        <img id="buttonOn1"  class="hide" src="assets/images/buttonON.png"> 
+        <img id="buttonOff1" src="assets/images/buttonOFF.png">
+      </div>
+        <br>
+        <br>
+        <br>
+        <br>
+      <p>A convection oven is very important to a bakery. A convection oven has a fan that blows hot air over and 
+        around the food. This type of oven cooks faster and more evenly so I can bake multiple items at one time.</p>
+        <div align="center">
+        <audio controls>
+          <source src="assets/audio/Convection Oven.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio>
+    </div>  
+  </div>
+  
+
+  <div class="map-item map-item5">
+    <a class="marker marker5" href="#marker5"></a>
+
+    <aside id="marker5" class="map-popup">
+      <p>I would not be able to prepare all my desserts without an electric mixer! Because the electric mixer is powered by electricity, 
+        it is more powerful than I am and can mix batter for much longer periods than I can. The mixer saves time and helps me get more done in the kitchen!</p>
+       <audio controls>
+        <source src="assets/audio/mixer.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+    </aside>
+  </div>
+  
+  <div class="container-lg"> 
+
+    <div id="wrap">
+      <div class="steam" id="steam-one"></div>
+      <div class="steam" id="steam-two"></div>
+      <div class="steam" id="steam-three"></div>
+      <div class="steam" id="steam-four"></div>
+    </div>
+    
+
+    <div id="wrap2">
+      <div class="steam" id="steam-five"></div>
+      <div class="steam" id="steam-six"></div>
+      <div class="steam" id="steam-seven"></div>
+      <div class="steam" id="steam-eight"></div>
+    </div>
+
+    <div id ="Transcript-BTN">
+      <a href="https://instructional-resources.s3.amazonaws.com/PLTW_Launch/10059_EnergyExploration/English_External_Files/EnergyExploration_MainStreet/4_9_MainStreet_Transcript.pdf" target="_blank">
+        <img  src="assets/images/Transcript-BTN.png" alt="">
+      </a>
+    </div>
+
+    <!-- <div  id ="sound_on">
+      <img  src="assets/images/button_soundON.png"  onclick="playAudio()" alt="">
+    </div>
+
+    <div id ="sound_off">
+      <img  src="assets/images/button_soundOFF.png" onclick="pauseAudio()" alt="">
+    </div>  -->
+
+  
+      <div id ="anim_on">
+        <img  src="assets/images/button_animON.png" alt="">
+      </div>
+
+
+    <div id ="anim_off">
+      <img  src="assets/images/button_animOFF.png" alt="">
+    </div> 
+
+    <div id ="back">
+      <a href="https://instructional-resources.s3.amazonaws.com/PLTW_Launch/10059_EnergyExploration/English_External_Files/EnergyExploration_MainStreet/4_9_MainStreet/main_index.html">
+        <img  src="assets/images/Sbutton_BACK.png" alt="">
+      </a>
+    </div>
+   
+
+
+    
+    <div id ="bakeryon">
+      <img  src="assets/images/bakery_oven.png" alt="">
+    </div>
+
+  
+  </div>
+      <img src="assets/images/bakery_BG.png" alt="">
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
+
+ 

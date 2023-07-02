@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Loping Elk Guitars</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/bhp4cmh.css">
+</head>
+
+<body>
+  <div class="map">
+  
+  <div class="map-item map-item1">
+    <a class="marker marker1" href="#marker1"></a>
+    <aside id="marker1" class="map-popup">
+      <div class="buttons">
+        <img id="buttonOn1" class="hide" src="assets/images/buttonON.png"> 
+        <img id="buttonOff1" src="assets/images/buttonOFF.png">
+      </div>
+        <br>
+        <br>
+        <br>
+        <br>
+      <p>I am an online retailer, so digital devices are very important. 
+        I keep my phone and computer charged so I can answer calls and emails. 
+        I also use my computer to develop my website.</p>
+        <div align="center">
+      <audio controls>
+        <source src="assets/audio/Digital Devices_1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+        </div>
+    </aside>
+  </div>
+  
+  <div class="map-item map-item2">
+    <a class="marker marker2" href="#marker2"></a>
+    <aside id="marker2" class="map-popup">
+      <p>Even though my retail shop is online, I also attend music festivals and guitar shows to sell my guitars. 
+        At these festivals, I use an extension cord to power different devices. One important device is an amplifier. 
+        Customers plug in an electric guitar to the amplifier to hear the sound it makes.</p>
+        <div align="center">
+            <audio controls>
+            <source src="assets/audio/amp.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+       </div>
+    </aside>
+  </div>
+
+  <div class="map-item map-item3">
+    <a class="marker marker3" href="#marker3"></a>
+    <aside id="marker3" class="map-popup">
+      <p>At outdoor music festivals and guitar shows, I use an extension cord to power a fan to keep the guitars cool. 
+        If they get too hot, they can be damaged.</p>
+        <div align="center">
+            <audio controls>
+            <source src="assets/audio/fan.wav" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+        </div>
+    </aside> 
+  </div>
+  
+
+  <div class="map-item map-item4">
+    <a class="marker marker4" href="#marker4"></a>
+
+    <aside id="marker4" class="map-popup">
+      <img id="cakesimg"  src="./assets/images/BrianStratton.jpg">
+      <h3 id="name" class="popup-title">Brian Stratton</h3>
+       <p id="title">Owner, Loping Elk Guitar</p>
+       <div align="center">
+        <audio controls>
+          <source src="assets/audio/brain_stratton_audio_intro.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio>
+      </div>
+    </aside>
+  </div>
+  
+  <div class="container-lg"> 
+
+    <div id ="Transcript-BTN">
+      <a href="https://instructional-resources.s3.amazonaws.com/PLTW_Launch/10059_EnergyExploration/English_External_Files/EnergyExploration_MainStreet/4_9_MainStreet_Transcript.pdf" target="_blank">
+        <img  src="assets/images/Transcript-BTN.png" alt="">
+      </a>
+    </div>
+ 
+    <!-- <div  id ="sound_on">
+      <img  src="assets/images/button_soundON.png"  alt="">
+    </div>
+
+    <div id ="sound_off">
+      <img  src="assets/images/button_soundOFF.png" alt="">
+    </div> -->
+
+  
+
+    <div id ="back">
+      <a href="https://instructional-resources.s3.amazonaws.com/PLTW_Launch/10059_EnergyExploration/English_External_Files/EnergyExploration_MainStreet/4_9_MainStreet/main_index.html">
+        <img  src="assets/images/Sbutton_BACK.png" alt="">
+      </a>
+    </div>
+    
+    <div id ="tabletON">
+      <img  src="assets/images/guitar_tabletON.png" alt="">
+    </div>
+
+  
+    <audio id="audio_play">
+      <source src="assets/audio/eletric-guitar-chug.mp3" type="audio/mpeg" />
+    </audio>
+      <img  src="assets/images/guitar_amp.png" alt="" onClick="Play()"  id ="guitar_amp" />
+        <!-- <script type="text/javascript">
+          function Play()
+           {
+            var myAudio = document.getElementById("audio_play");
+                if(myAudio.paused) {
+                myAudio.play();
+              }
+                else {
+                 myAudio.pause();
+            }
+          }
+        </script> -->
+  
+  </div>
+      <img src="assets/images/guitarbrian_bg.png" alt="" data-action="zoom">
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
+
+ 

@@ -1,0 +1,443 @@
+*{
+  font-family: Sofia-Pro, sans-serif !important;
+ }
+
+body {
+  font-size: 100%;
+  line-height: 1.5;
+  background-image: url(../assets/images/main_OVERLAY.png);
+  height: 100vh;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+
+#buttonOff1{
+  position: absolute;
+  width: 15%;
+  height: auto;
+  z-index: 2;
+  left: 36%;
+  top: 5.0%;
+  cursor: pointer;
+}
+
+#buttonOn1{
+  position: absolute;
+  width: 15%;
+  height: auto;
+  z-index: 1;
+  left: 36%;
+  cursor: pointer;
+  top: 5.0%;
+}
+
+
+
+#play{
+  position: absolute;
+  background-color:rgba(100, 149, 237, 0.7);
+  border: 0;
+  border-radius: 0.25rem;
+  color: #FFF;
+  display: inline-block;
+  padding: 0.5rem;
+  width: 5%;
+  height: 5%;
+  z-index: 4;
+  top: 5%;
+  left: 78.5%;
+  transform: translate(-10%, -10%);
+}
+
+
+
+.paused {
+  animation-play-state: paused;
+}
+
+
+#pause{
+  position: absolute;
+  background-color:rgba(100, 149, 237, 0.7);
+  border: 0;
+  border-radius: 0.25rem;
+  color: #FFF;
+  display: inline-block;
+  padding: 0.5rem;
+  width: 5%;
+  height: 5%;
+  z-index: 4;
+  top: 5%;
+  left: 70.5%;
+  transform: translate(-10%, -10%);
+}
+
+
+#Transcript-BTN{
+  position: absolute;
+  width: 9.5%;
+  height: 8.7%;
+  z-index: 1;
+  top: 5%;
+  left: 87.5%;
+  transform: translate(-10%, -10%);
+}
+
+#sound_on{
+  position: absolute;
+  width: 3%;
+  height: 3%;
+  z-index: 3;
+  top: 4%;
+  left: 96.5%;
+  transform: translate(-10%, -10%);
+}
+
+#sound_off{
+  position: absolute;
+  width: 3%;
+  height: 3%;
+  z-index: 2;
+  top: 4%;
+  left: 96.5%;
+  transform: translate(-10%, -10%);
+}
+
+#anim_off{
+  position: absolute;
+  width: 3%;
+  height: 3%;
+  z-index: 3;
+  top: 4%;
+  left: 96.5%;
+  transform: translate(-10%, -10%);
+}
+
+#anim_on{
+  position: absolute;
+  width: 3%;
+  height: 3%;
+  z-index: 2;
+  top: 4%;
+  left: 96.5%;
+  transform: translate(-10%, -10%);
+}
+
+#back{
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  z-index: 1;
+  top: 74%;
+  left: 80.0%;
+  transform: translate(-10%, -10%);
+}
+
+ #back:hover{
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  z-index: 1;
+  scale: 1.07;
+  top: 74%;
+  left: 80.0%;
+  transform: translate(-10%, -10%);
+} 
+
+
+
+
+ 
+#turbine_blade_1{
+  position: absolute;
+  width: 22.3%;
+  height: 22.3%;
+  z-index: 4;
+  top: -2.95%;
+  left: -0.7%;
+}
+
+.rotate {
+  animation: rotation 4s infinite linear;
+  transform-origin: 	bottom;
+}
+
+
+#turbine_blade_2{
+  position: absolute;
+  width:  16.0%;
+  height: 16.0%;
+  z-index: 3;
+  top: 2.0%;
+  left: 13.51%;
+  transform: translate(-10%, -10%);
+}
+
+.rotate2 {
+  animation: rotation 6s infinite linear;
+  transform-origin: bottom;
+}
+
+
+#turbine_blade_3{
+  position: absolute;
+  width: 13.7%;
+  height: 13.7%;
+  z-index: 2;
+  top: 3.8%;
+  left: 23.88%;
+  transform: translate(-10%, -10%);
+}
+
+.rotate3 {
+  animation: rotation 7s infinite linear;
+  transform-origin: bottom;
+}
+
+
+#turbine_blade_4{
+  position: absolute;
+  width: 12.5%;
+  height: 12.5%;
+  z-index: 1;
+  top: 5.2%;
+  left: 32.65%;
+  transform: translate(-10%, -10%);
+}
+
+.rotate4 {
+  animation: rotation 3s infinite linear;
+  transform-origin: bottom;
+}
+
+#storeowner{
+  position: absolute;
+  z-index: 1;
+  top: 3.45%;
+  left: 41.6%;
+  width: 32%;
+  height: 32%;
+}
+
+#turbines_phone{
+  position: absolute;
+  z-index: 3;
+  top: 18.5%;
+  left: 42.24%;
+  width: 6.4%;
+  height: 6.4%;
+  display: none;
+}
+
+/* img {
+  max-width: 100%;
+  height: auto;
+} */
+
+video{
+  max-width: 100%;
+  height: auto;
+}
+
+audio{
+  max-width: 70%;
+}
+
+.map {
+  position: relative;
+  max-height: auto;
+  max-width: 90%;
+  margin: auto;
+  background-color: #ccc;
+  
+}
+.map img {
+  display: block;
+  width: 100%;
+}
+
+#title{
+  text-align: center;
+}
+
+#name{
+  text-align: center;
+}
+
+
+
+.map-popup {
+  border-radius: 50px;
+  text-align: left;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  z-index: 99;
+  width: 60%;
+  padding: 1rem;
+  background-color:rgb(255, 255, 255, 0.95);
+  transition: all 200ms ease-in;
+  transform: translate(-50%,-50%);
+  box-shadow: 0 0 24px rgba(0,0,0,0.22);
+  visibility: hidden;
+}
+
+.map-popup > *:first-child { margin-top: 0; }
+.map-popup > *:last-child { margin-bottom: 0; }
+
+.map-popup.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+.marker {
+  position: absolute;
+  z-index: 3;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  color: rgb(0, 0, 0);
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  transition: all 300ms;
+  animation: puls-effect 1s ease infinite;
+}
+
+
+.marker:after {
+  position: absolute;
+  z-index: 3;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  color: rgb(0, 0, 0);
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: rgb(145, 145, 145);
+  transition: all 300ms;
+  
+}
+
+.marker1 {
+  top: 30%;
+  left: 40%;
+}
+.marker2 {
+  top: 18%;
+  left: 48%;
+}
+
+.marker3 {
+  top: 40%;
+  left: 59%;
+}
+
+.marker4 {
+  top: 50%;
+  left: 44%;
+}
+
+.marker5 {
+  top: 30%;
+  left: 78%;
+}
+
+@media only screen and (min-width:68em) {
+  .map-item {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    }
+    .map-item .marker {
+      top: auto;
+      left: auto;
+    }
+  
+  .map-item1 {
+    top: 30%;
+    left: 33%;
+  }
+  .map-item2 {
+    top: 18%;
+    left: 48%;
+  }
+
+  .map-item3 {
+    top: 40%;
+    left: 59%;
+  }
+  .map-item4 {
+    top: 54%;
+    left: 52%;
+  }
+
+  .map-item5 {
+    top: 30%;
+    left: 78%;
+  }
+
+  
+  .map-popup {
+    position: absolute;
+    left: 58px;
+    width: 280px;
+    transform: translateY(-50%);
+  }
+  .map-popup:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -16px;
+    margin-top: -16px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 16px 16px 16px 0;
+    border-color: transparent #fff transparent transparent;
+  }
+  
+  .map-popup.edge {
+    left: auto;
+    right: calc(100% + 24px);
+  }
+  .map-popup.edge:before {
+    left: auto;
+    right: -16px;
+    border-width: 16px 0 16px 16px;
+    border-color: transparent transparent transparent #fff;
+  }
+}
+
+
+@keyframes puls-effect {
+  0% {
+    transform: scale(0.5);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+
